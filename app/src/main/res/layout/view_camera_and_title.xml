@@ -23,23 +23,17 @@
                      android:src="@android:drawable/ic_menu_camera"
             />
     </LinearLayout>
-    <LinearLayout
+    <android.support.design.widget.TextInputLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_weight="1"
         >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/crime_title_label"
-            style="?android:listSeparatorTextViewStyle"
-            />
         <EditText android:id="@+id/crime_title"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:layout_marginRight="16dp"
-                  android:hint="@string/crime_title_hint"
+                  android:hint="@string/crime_title_label"
             />
-    </LinearLayout>
+    </android.support.design.widget.TextInputLayout>
 </LinearLayout>
